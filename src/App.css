@@ -13,6 +13,10 @@
   }
 }
 
+a {
+  color: #ffffff;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +26,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-header button {
+  padding: 15px 40px;
+  background: none;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 14px;
 }
 
 .App-link {
